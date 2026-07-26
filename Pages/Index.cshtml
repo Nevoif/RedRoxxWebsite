@@ -1,0 +1,201 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "RedRoxx";
+}
+
+<section id="live-music" class="banner-section" aria-labelledby="live-music-title">
+    <div class="section-heading">
+        <h2 id="live-music-title"></h2>
+        <hr />
+    </div>
+    <div class="slideshow" aria-label="Slayt gösterisi">
+        <div class="slides">
+            <img src="~/images/slideshow1.jpg" alt="Slayt gösterisi 1" class="slide active" loading="lazy" decoding="async" />
+            <img src="~/images/slideshow2.jpg" alt="Slayt gösterisi 2" class="slide" loading="lazy" decoding="async" />
+        </div>
+        <button class="slide-control prev" type="button" aria-label="Önceki fotoğraf">←</button>
+        <button class="slide-control next" type="button" aria-label="Sonraki fotoğraf">→</button>
+    </div>
+</section>
+
+<section id="menu" class="menu-section" aria-labelledby="menu-title">
+    <div class="section-heading">
+        <h2 id="menu-title">Menü</h2>
+        <hr />
+    </div>
+
+    @if (Model.HappyHourItems.Any())
+    {
+        <article class="category-block happy-hour-section">
+            <div class="category-title-row">
+                <img src="~/images/cocktail.svg" alt="" class="category-icon" loading="lazy" decoding="async" />
+                <h3>Bahçe Kampanyaları</h3>
+            </div>
+            <div class="menu-grid">
+                @foreach (var item in Model.HappyHourItems)
+                {
+                    <div class="menu-card">
+                        <img src="@Url.Content((item.ImagePath ?? "/images/beer.svg").TrimStart('/'))" alt="@item.Name" class="item-image" loading="lazy" decoding="async" />
+                        <div class="menu-card-content">
+                            <div class="menu-card-header">
+                                <h4>@item.Name</h4>
+                                <span class="price">@item.Price.ToString("0.00") TL</span>
+                            </div>
+                            <span class="tag">Canlı müzikte geçerli değildir.</span>
+                            @if (!string.IsNullOrWhiteSpace(item.Abv))
+                            {
+                                <p class="detail">ABV @item.Abv</p>
+                            }
+                            @if (item.Calories is not null || item.Protein is not null || item.Fat is not null || item.Carbs is not null)
+                            {
+                                <ul class="nutrition-list" aria-label="Besin bilgileri">
+                                    @if (item.Calories is not null)
+                                    {
+                                        <li><span>Kalori</span><strong>@item.Calories</strong></li>
+                                    }
+                                    @if (item.Protein is not null)
+                                    {
+                                        <li><span>Protein</span><strong>@item.Protein g</strong></li>
+                                    }
+                                    @if (item.Fat is not null)
+                                    {
+                                        <li><span>Yağ</span><strong>@item.Fat g</strong></li>
+                                    }
+                                    @if (item.Carbs is not null)
+                                    {
+                                        <li><span>Karbonhidrat</span><strong>@item.Carbs g</strong></li>
+                                    }
+                                </ul>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </article>
+    }
+
+    @foreach (var category in Model.MenuByCategory)
+    {
+        var iconPath = category.Key switch
+        {
+            "Bira" => "/images/beer.svg",
+            "Kokteyller" => "/images/cocktail.svg",
+            "Shotlar" => "/images/cocktail.svg",
+            "Viski" => "/images/cocktail.svg",
+            "Gin" => "/images/cocktail.svg",
+            "Tequila" => "/images/cocktail.svg",
+            "Vodka" => "/images/cocktail.svg",
+            "Rom" => "/images/cocktail.svg",
+            "Yiyecek" => "/images/food-burger.svg",
+            "Mesrubatlar" => "/images/mocktail.svg",
+            "Meşrubat" => "/images/mocktail.svg",
+            _ => "/images/beer.svg"
+        };
+
+        <article class="category-block">
+            <div class="category-title-row">
+                <img src="@Url.Content(iconPath.TrimStart('/'))" alt="" class="category-icon" loading="lazy" decoding="async" />
+                <h3>@category.Key</h3>
+            </div>
+            <div class="menu-grid">
+                @foreach (var item in category.Value)
+                {
+                    <div class="menu-card">
+                        <img src="@Url.Content((item.ImagePath ?? "/images/beer.svg").TrimStart('/'))" alt="@item.Name" class="item-image" loading="lazy" decoding="async" />
+                        <div class="menu-card-content">
+                            <div class="menu-card-header">
+                                <h4>@item.Name</h4>
+                                <span class="price">@item.Price.ToString("0.00") TL</span>
+                            </div>
+                            @if (!string.IsNullOrWhiteSpace(item.Abv))
+                            {
+                                <p class="detail">ABV @item.Abv</p>
+                            }
+                            @if (item.Calories is not null || item.Protein is not null || item.Fat is not null || item.Carbs is not null)
+                            {
+                                <ul class="nutrition-list" aria-label="Besin bilgileri">
+                                    @if (item.Calories is not null)
+                                    {
+                                        <li><span>Kalori</span><strong>@item.Calories</strong></li>
+                                    }
+                                    @if (item.Protein is not null)
+                                    {
+                                        <li><span>Protein</span><strong>@item.Protein g</strong></li>
+                                    }
+                                    @if (item.Fat is not null)
+                                    {
+                                        <li><span>Yağ</span><strong>@item.Fat g</strong></li>
+                                    }
+                                    @if (item.Carbs is not null)
+                                    {
+                                        <li><span>Karbonhidrat</span><strong>@item.Carbs g</strong></li>
+                                    }
+                                </ul>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </article>
+    }
+</section>
+
+<section id="contact" class="contact-section" aria-labelledby="contact-title">
+    <div class="section-heading">
+        <h2 id="contact-title">Rezervasyon ve fazlası için</h2>
+        <hr />
+    </div>
+    <div class="contact-grid">
+        <div>
+            <h3>Telefon</h3>
+            <p>0532 207 17 33</p>
+        </div>
+                <div>
+            <h3>Sosyal Medya</h3>
+            <p><a href="https://www.instagram.com/redroxx_live/" target="_blank" rel="noreferrer">Instagram</a><br /><a href="https://www.instagram.com/redroxx_live/" target="_blank" rel="noreferrer">X</a></p>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        (() => {
+            const slideshow = document.querySelector('.slideshow');
+            if (!slideshow) return;
+
+            const slides = Array.from(slideshow.querySelectorAll('.slide'));
+            const prevButton = slideshow.querySelector('.slide-control.prev');
+            const nextButton = slideshow.querySelector('.slide-control.next');
+            let currentIndex = 0;
+            let intervalId = null;
+
+            const showSlide = (index) => {
+                slides[currentIndex]?.classList.remove('active');
+                currentIndex = (index + slides.length) % slides.length;
+                slides[currentIndex]?.classList.add('active');
+            };
+
+            const goNext = () => showSlide(currentIndex + 1);
+            const goPrev = () => showSlide(currentIndex - 1);
+
+            prevButton?.addEventListener('click', () => {
+                goPrev();
+                resetAutoRotate();
+            });
+            nextButton?.addEventListener('click', () => {
+                goNext();
+                resetAutoRotate();
+            });
+
+            const resetAutoRotate = () => {
+                if (intervalId) {
+                    clearInterval(intervalId);
+                }
+                intervalId = setInterval(goNext, 5000);
+            };
+
+            resetAutoRotate();
+        })();
+    </script>
+}

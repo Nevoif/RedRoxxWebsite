@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="RedRoxx logo">
+  <rect width="320" height="180" fill="#0d0d0d" />
+  <rect x="24" y="24" width="272" height="132" rx="20" fill="none" stroke="#c8102e" stroke-width="6" />
+  <path d="M82 64h58c24 0 44 18 44 40s-20 40-44 40H82Z" fill="#c8102e" />
+  <path d="M148 64h52l28 80h-52l-14-40-14 40h-52Z" fill="#f5f5f5" />
+  <path d="M96 84h42" stroke="#0d0d0d" stroke-width="4" stroke-linecap="round" />
+  <path d="M96 103h32" stroke="#0d0d0d" stroke-width="4" stroke-linecap="round" />
+</svg>

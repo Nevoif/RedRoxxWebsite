@@ -1,0 +1,927 @@
+[
+  {
+    "name": "30 cl Bira",
+    "category": "Biralar",
+    "price": 109,
+    "imagePath": "images/bira.avif",
+    "abv": "4.5%",
+    "isHappyHour": true
+  },
+  {
+    "name": "50 cl Bira",
+    "category": "Biralar",
+    "price": 129,
+    "imagePath": "images/bira.avif",
+    "abv": "4.6%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Amsterdam",
+    "category": "Biralar",
+    "price": 335,
+    "imagePath": "images/amsterdam.jpg",
+    "abv": "5.0%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Becks",
+    "category": "Biralar",
+    "price": 245,
+    "imagePath": "images/becks.jpg",
+    "abv": "5.0%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Belfast",
+    "category": "Biralar",
+    "price": 245,
+    "imagePath": "images/belfast.jpg",
+    "abv": "5.0%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Bud",
+    "category": "Biralar",
+    "price": 245,
+    "imagePath": "images/bud.jpg",
+    "abv": "5.0%",
+    "isHappyHour": true
+  },
+
+  {
+    "name": "Efes Glutensiz",
+    "category": "Biralar",
+    "price": 245,
+    "imagePath": "images/glutensiz2.jpg",
+    "abv": "4.2%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Efes Özel Seri",
+    "category": "Biralar",
+    "price": 14,
+    "imagePath": "images/ozelseri.jpg",
+    "abv": "5.0%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Efes Pilsen",
+    "category": "Biralar",
+    "price": 169,
+    "imagePath": "images/pilsen.jpg",
+    "abv": "5.0%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Efes Malt",
+    "category": "Biralar",
+    "price": 169,
+    "imagePath": "images/malt.jpg",
+    "abv": "5.0%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Miller",
+    "category": "Biralar",
+    "price": 260,
+    "imagePath": "images/miller.jpg",
+    "abv": "4.7%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Bomonti Filtresiz",
+    "category": "Biralar",
+    "price": 225,
+    "imagePath": "images/bomonti.jpg",
+    "abv": "4.8%",
+    "isHappyHour": true
+  },
+  {
+    "name": " 50CL FICI + PATATES",
+    "category": "Yemekler",
+    "price": 179,
+    "imagePath": "images/ficipatates.jpg",
+    "calories": 420,
+    "protein": 6,
+    "fat": 21,
+    "carbs": 54,
+    "isHappyHour": true
+  },
+  {
+    "name": "FICI 50CL+ JAGER",
+    "category": "Biralar",
+    "price": 259,
+    "imagePath": "images/jagerbeer.jpg",
+    "abv": "4.5%",
+    "isHappyHour": true
+  },
+  {
+    "name": "FIÇI 50CL+ TEKILA",
+    "category": "Biralar",
+    "price": 279,
+    "imagePath": "images/ficijager.jpg",
+    "abv": "38%",
+    "isHappyHour": true
+  },
+  {
+    "name": "JAGER",
+    "category": "Shotlar",
+    "price": 139,
+    "imagePath": "images/jager.jpg",
+    "abv": "35%",
+    "isHappyHour": true
+  },
+  {
+    "name": "ABSOLUT SHOT",
+    "category": "Shotlar",
+    "price": 190,
+    "imagePath": "images/absolute.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "B-52",
+    "category": "Shotlar",
+    "price": 150,
+    "imagePath": "images/b-52.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "CHIVAS SHOT",
+    "category": "Shotlar",
+    "price": 190,
+    "imagePath": "images/chivasshot.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "JACK APPLE SHOT",
+    "category": "Shotlar",
+    "price": 190,
+    "imagePath": "images/applejackshot.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "JACK DANIEL'S SHOT",
+    "category": "Shotlar",
+    "price": 190,
+    "imagePath": "images/jackdaniels.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "JB HONEY SHOT",
+    "category": "Shotlar",
+    "price": 190,
+    "imagePath": "images/jbhoney2.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "MAHŞERİN 5 SHOTLISI",
+    "category": "Shotlar",
+    "price": 550,
+    "imagePath": "images/mahserin5.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "SMIRNOFF SHOT",
+    "category": "Shotlar",
+    "price": 190,
+    "imagePath": "images/smirnoff.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "TEKILA SHOT",
+    "category": "Shotlar",
+    "price": 119,
+    "imagePath": "images/tekila.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "TEKILA SHOT",
+    "category": "Shotlar",
+    "price": 150,
+    "imagePath": "images/tekila.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "VODKA SHOT",
+    "category": "Shotlar",
+    "price": 190,
+    "imagePath": "images/vodka.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "5-35 TEQUILA",
+    "category": "Shotlar",
+    "price": 600,
+    "imagePath": "images/mahserin5.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "5'LI JAGER",
+    "category": "Shotlar",
+    "price": 700,
+    "imagePath": "images/jager.jpg",
+    "isHappyHour": false
+  },
+
+  {
+    "name": "Tavuk Burger + 50CL FICI",
+    "category": "Yemekler",
+    "price": 279,
+    "imagePath": "images/chickenburger.jpg",
+    "calories": 840,
+    "protein": 40,
+    "fat": 45,
+    "carbs": 55,
+    "isHappyHour": true
+  },
+  {
+    "name": "GİN KADEH",
+    "category": "Gin",
+    "price": 249,
+    "imagePath": "images/ginkadeh.webp",
+    "abv": "40%",
+    "isHappyHour": true
+  },
+  {
+    "name": "GIN LIMON",
+    "category": "Gin",
+    "price": 330,
+    "imagePath": "images/gin lemon.jpg",
+    "abv": "40%",
+    "isHappyHour": false
+  },
+  {
+    "name": "GIN TONIC",
+    "category": "Gin",
+    "price": 330,
+    "imagePath": "images/gintonic.jpg",
+    "abv": "40%",
+    "isHappyHour": false
+  },
+  {
+    "name": "HENDRICKS",
+    "category": "Gin",
+    "price": 400,
+    "imagePath": "images/hendricks.jpg",
+    "abv": "41.4%",
+    "isHappyHour": false
+  },
+  {
+    "name": "BALLANTINES",
+    "category": "Viski",
+    "price": 500,
+    "imagePath": "images/ballantines.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "CARDHU",
+    "category": "Viski",
+    "price": 550,
+    "imagePath": "images/cardhu.JPG",
+    "isHappyHour": false
+  },
+  {
+    "name": "CHIVAS REGAL",
+    "category": "Viski",
+    "price": 500,
+    "imagePath": "images/chivasregal.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "DIMPLE",
+    "category": "Viski",
+    "price": 450,
+    "imagePath": "images/dimple.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "FAMOUS",
+    "category": "Viski",
+    "price": 450,
+    "imagePath": "images/famous.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "J&W BLACK LABEL",
+    "category": "Viski",
+    "price": 500,
+    "imagePath": "images/johnnywalker.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "J.B",
+    "category": "Viski",
+    "price": 450,
+    "imagePath": "images/jb.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "JACK DANIELS",
+    "category": "Viski",
+    "price": 500,
+    "imagePath": "images/jackdaniels.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "JAMESON",
+    "category": "Viski",
+    "price": 500,
+    "imagePath": "images/jameson.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "JB HONEY",
+    "category": "Viski",
+    "price": 450,
+    "imagePath": "images/jbhoney2.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "JOHNNIE WALKER",
+    "category": "Viski",
+    "price": 500,
+    "imagePath": "images/johnnywalker.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "MONKEY",
+    "category": "Viski",
+    "price": 550,
+    "imagePath": "images/monkey.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "BEYAZ ŞARAP",
+    "category": "Şarap",
+    "price": 300,
+    "imagePath": "images/beyazsarap.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "BLUSH",
+    "category": "Şarap",
+    "price": 300,
+    "imagePath": "images/blush.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "KIRMIZI ŞARAP",
+    "category": "Şarap",
+    "price": 300,
+    "imagePath": "images/redwine.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "COSMOPOLITAN",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/cosmopolitan.webp",
+    "abv": "22%",
+    "isHappyHour": true
+  },
+  {
+    "name": "APEROL SOUR",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/aperolsour.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "APEROL SPRITZ",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/aperolspritz.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "BLUE LAGON",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/bluelagon.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "COCO MARGARITA",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/cocomargarita.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "CUBA LIBRE",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/cubalibre.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "DAIQUIRI",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/daiquiri.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "GIN FIZZ",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/ginfizz.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "GIN RUBY",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/ginruby.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "HOCUS POCUS",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/hocuspocus.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "LONG ISLAND ICE TEA",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/longisland.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "LYNCHBURG LEMONADE",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/lyncburglemonade.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "MARGARITA",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/margarita.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "MARTINI",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/martinicocktail.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "KUZUKULAGI",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/kuzukulagi.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "NEW YORK SOUR",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/newyorksour.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "PAIN KILLER",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/painkiller.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "PASSION FRUIT SOUR",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/passionfruitsour.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "PINA COLADA",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/pinacolada.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "SATSUMA",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/satsuma.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "SEX ON THE BEACH",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/sexonthe.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "WHITE LADY",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/whitelady.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "WHITE RUSSIAN",
+    "category": "Alkollu Kokteyller",
+    "price": 279,
+    "imagePath": "images/whiterussian.jpg",
+    "isHappyHour": true
+  },
+  {
+    "name": "APEROL SPRITZ",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/aperolspritz.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "BLUE LAGON",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/bluelagon.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "COCO MARGARITA",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/cocomargarita.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "CUBA LIBRE",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/cubalibre.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "DAIQUIRI",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/daiquiri.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "GIN FIZZ",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/ginfizz.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "GIN RUBY",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/ginruby.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "HOCUS POCUS",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/hocuspocus.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "LONG ISLAND ICE TEA",
+    "category": "Alkollu Kokteyller",
+    "price": 400,
+    "imagePath": "images/longisland.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "LYNCHBURG LEMONADE",
+    "category": "Alkollu Kokteyller",
+    "price": 400,
+    "imagePath": "images/lyncburglemonade.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "MARGARITA",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/margarita.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "MARTINI",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/martinicocktail.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "KUZUKULAGI",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/kuzukulagi.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "NEW YORK SOUR",
+    "category": "Alkollu Kokteyller",
+    "price": 400,
+    "imagePath": "images/newyorksour.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "PAIN KILLER",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/painkiller.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "PASSION FRUIT SOUR",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/passionfruitsour.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "PINA COLADA",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/pinacolada.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "SATSUMA",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/satsuma.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "SEX ON THE BEACH",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/sexonthe.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "WHITE LADY",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/whitelady.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "WHITE RUSSIAN",
+    "category": "Alkollu Kokteyller",
+    "price": 350,
+    "imagePath": "images/whiterussian.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "HAMBURGER + 50CL FIÇI",
+    "category": "Yemekler",
+    "price": 339,
+    "imagePath": "images/burgerbira.jpg",
+    "calories": 900,
+    "protein": 48,
+    "fat": 50,
+    "carbs": 58,
+    "isHappyHour": true
+  },
+  {
+    "name": "TEKILA SUNRISE",
+    "category": "Tequila",
+    "price": 279,
+    "imagePath": "images/tekilasunrise.webp",
+    "abv": "36%",
+    "isHappyHour": true
+  },
+  {
+    "name": "VODKA KADEH",
+    "category": "Vodka",
+    "price": 249,
+    "imagePath": "images/vodkakadeh.jpg",
+    "abv": "35%",
+    "isHappyHour": true
+  },
+  {
+    "name": "ABSOLUT KADEH",
+    "category": "Vodka",
+    "price": 350,
+    "imagePath": "images/absolute.jpg",
+    "abv": "40%",
+    "isHappyHour": false
+  },
+  {
+    "name": "SMIRNOFF KADEH",
+    "category": "Vodka",
+    "price": 350,
+    "imagePath": "images/smirnoff.jpg",
+    "abv": "37%",
+    "isHappyHour": false
+  },
+  {
+    "name": "VODKA ANANAS",
+    "category": "Vodka",
+    "price": 330,
+    "imagePath": "images/vodkaananas.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "VODKA ELMA",
+    "category": "Vodka",
+    "price": 330,
+    "imagePath": "images/vodkaelma.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "VODKA ENERJI",
+    "category": "Vodka",
+    "price": 330,
+    "imagePath": "images/vodkaenerji.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "VODKA LIMON",
+    "category": "Vodka",
+    "price": 330,
+    "imagePath": "images/vodkalemon.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "VODKA PORTAKAL",
+    "category": "Vodka",
+    "price": 330,
+    "imagePath": "images/vodkaportakal.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "VODKA SPRITE",
+    "category": "Vodka",
+    "price": 330,
+    "imagePath": "images/vodkasprite.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "VODKA TONIC",
+    "category": "Vodka",
+    "price": 330,
+    "imagePath": "images/vodkatonic.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "VODKA VISNE",
+    "category": "Vodka",
+    "price": 330,
+    "imagePath": "images/vodkavisne.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "BACARDI",
+    "category": "Rom",
+    "price": 300,
+    "imagePath": "images/bacardi.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "CAPTAIN MORGAN",
+    "category": "Rom",
+    "price": 330,
+    "imagePath": "images/captainmorgan.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "HAVANA CLUB",
+    "category": "Rom",
+    "price": 330,
+    "imagePath": "images/havanaclub.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "Çerez",
+    "category": "Yemekler",
+    "price": 150,
+    "imagePath": "images/cerez.jpg",
+    "calories": 260,
+    "protein": 8,
+    "fat": 18,
+    "carbs": 12
+  },
+  {
+    "name": "Baharatlı Patates",
+    "category": "Yemekler",
+    "price": 225,
+    "imagePath": "images/baharatlipatates.jpg",
+    "calories": 480,
+    "protein": 5,
+    "fat": 24,
+    "carbs": 58
+  },
+  {
+    "name": "Çıtır Tavuk",
+    "category": "Yemekler",
+    "price": 320,
+    "imagePath": "images/citirtavuk.jpg",
+    "calories": 520,
+    "protein": 32,
+    "fat": 28,
+    "carbs": 39
+  },
+  {
+    "name": "Çıtır Patates",
+    "category": "Yemekler",
+    "price": 225,
+    "imagePath": "images/patates.jpg",
+    "calories": 480,
+    "protein": 5,
+    "fat": 24,
+    "carbs": 58
+  },
+  {
+    "name": "RedRoxx Bira Sepeti",
+    "category": "Yemekler",
+    "price": 399,
+    "imagePath": "images/birasepeti.jpg",
+    "calories": 0,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 0
+  },
+  {
+    "name": "Soğuş",
+    "category": "Yemekler",
+    "price": 50,
+    "imagePath": "images/sogus.jpg",
+    "calories": 30,
+    "protein": 1,
+    "fat": 0,
+    "carbs": 7
+  },
+  {
+    "name": "Churchill",
+    "category": "Mesrubatlar",
+    "price": 99,
+    "imagePath": "images/churchill.jpg",
+    "abv": "0%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Coca Cola",
+    "category": "Mesrubatlar",
+    "price": 110,
+    "imagePath": "images/cocacola.jpg",
+    "abv": "0%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Meyve Suyu",
+    "category": "Mesrubatlar",
+    "price": 99,
+    "imagePath": "images/meyvesuyu.jpg",
+    "abv": "0%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Redbull",
+    "category": "Mesrubatlar",
+    "price": 120,
+    "imagePath": "images/redbull.jpg",
+    "abv": "0%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Soda",
+    "category": "Mesrubatlar",
+    "price": 89,
+    "imagePath": "images/soda.jpg",
+    "abv": "0%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Sprite",
+    "category": "Mesrubatlar",
+    "price": 110,
+    "imagePath": "images/sprite.jpg",
+    "abv": "0%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Su",
+    "category": "Mesrubatlar",
+    "price": 35,
+    "imagePath": "images/su.jpg",
+    "abv": "0%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Türk Kahvesi",
+    "category": "Mesrubatlar",
+    "price": 100,
+    "imagePath": "images/turkkahvesi.jpg",
+    "abv": "0%",
+    "isHappyHour": true
+  }
+]

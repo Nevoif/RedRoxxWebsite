@@ -1,0 +1,9 @@
+{
+  "Monday": "banner-default.svg",
+  "Tuesday": "banner-default.svg",
+  "Wednesday": "wednesday.png",
+  "Thursday": "banner-default.svg",
+  "Friday": "banner-friday.svg",
+  "Saturday": "banner-saturday.svg",
+  "Sunday": "banner-sunday.svg"
+}

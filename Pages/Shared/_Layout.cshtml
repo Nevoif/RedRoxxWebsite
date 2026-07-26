@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="RedRoxx, menü bölümleri, canlı müzik ve iletişim bilgileri içeren statik bir bar sitesi." />
+    <title>@ViewData["Title"] - RedRoxx</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Ana navigasyon">
+            <div class="nav-group nav-left">
+                <a href="#live-music">Ana Sayfa</a>
+                <a href="#menu">Menü</a>
+            </div>
+            <a href="#live-music" class="logo-link" aria-label="RedRoxx ana sayfa">
+                <img src="~/images/logo.png" alt="RedRoxx logosu" class="site-logo" loading="eager" decoding="async" />
+            </a>
+            <div class="nav-group nav-right">
+                <a href="#live-music">Canlı Müzik</a>
+                <a href="#contact">İletişim</a>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main" class="page-shell">
+        @RenderBody()
+    </main>
+
+    <footer class="site-footer">
+        <p>RedRoxx • Kazimdirik Mah. Suvari Cad. No68B • Bornova/Izmir</p>
+        <p>Her aksam canlı müzik • Rezervasyon önerilir</p>
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
