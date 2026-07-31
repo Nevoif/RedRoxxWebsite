@@ -7,8 +7,4 @@
     <AllowMissingPrunePackageData>true</AllowMissingPrunePackageData>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="PuppeteerSharp" Version="6.0.4" />
-  </ItemGroup>
-
 </Project>

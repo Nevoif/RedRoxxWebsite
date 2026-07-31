@@ -1,36 +1,24 @@
-﻿@page
-@model IndexModel
+@page "/kampanya"
+@model KampanyaModel
 @{
-    ViewData["Title"] = "RedRoxx";
+    ViewData["Title"] = "Kampanyalar";
 }
 
-<section id="live-music" class="banner-section" aria-labelledby="live-music-title">
+<section id="campaigns" class="menu-section" aria-labelledby="campaigns-title">
     <div class="section-heading">
-        <h2 id="live-music-title"></h2>
-        <hr />
-    </div>
-    <div class="slideshow" aria-label="Slayt gösterisi">
-        <div class="slides">
-            <img src="~/images/slideshow1.jpg" alt="Slayt gösterisi 1" class="slide active" loading="lazy" decoding="async" />
-            <img src="~/images/slideshow2.jpg" alt="Slayt gösterisi 2" class="slide" loading="lazy" decoding="async" />
-        </div>
-        <button class="slide-control prev" type="button" aria-label="Önceki fotoğraf">←</button>
-        <button class="slide-control next" type="button" aria-label="Sonraki fotoğraf">→</button>
-    </div>
-</section>
-
-<section id="menu" class="menu-section" aria-labelledby="menu-title">
-    <div class="section-heading">
-        <h2 id="menu-title">Menü</h2>
+        <h2 id="campaigns-title">Kampanyalar</h2>
         <hr />
     </div>
 
-    @foreach (var category in Model.MenuByCategory)
+    @foreach (var category in Model.HappyHourByCategory)
     {
         var iconPath = category.Key switch
         {
             "Bira" => "/images/beer.svg",
+            "Biralar" => "/images/beer.svg",
             "Kokteyller" => "/images/cocktail.svg",
+            "Alkollu Kokteyller" => "/images/cocktail.svg",
+            "Alkolsuz Kokteyller" => "/images/mocktail.svg",
             "Shotlar" => "/images/cocktail.svg",
             "Viski" => "/images/cocktail.svg",
             "Gin" => "/images/cocktail.svg",
@@ -58,6 +46,7 @@
                                 <h4>@item.Name</h4>
                                 <span class="price">@item.Price.ToString("0.00") TL</span>
                             </div>
+                            <span class="tag">Canlı müzikte geçerli değildir.</span>
                             @if (!string.IsNullOrWhiteSpace(item.Abv))
                             {
                                 <p class="detail">ABV @item.Abv</p>
@@ -90,62 +79,3 @@
         </article>
     }
 </section>
-
-<section id="contact" class="contact-section" aria-labelledby="contact-title">
-    <div class="section-heading">
-        <h2 id="contact-title">Rezervasyon ve fazlası için</h2>
-        <hr />
-    </div>
-    <div class="contact-grid">
-        <div>
-            <h3>Telefon</h3>
-            <p>0532 207 17 33</p>
-        </div>
-                <div>
-            <h3>Sosyal Medya</h3>
-            <p><a href="https://www.instagram.com/redroxx_live/" target="_blank" rel="noreferrer">Instagram</a><br /><a href="https://www.instagram.com/redroxx_live/" target="_blank" rel="noreferrer">X</a></p>
-        </div>
-    </div>
-</section>
-
-@section Scripts {
-    <script>
-        (() => {
-            const slideshow = document.querySelector('.slideshow');
-            if (!slideshow) return;
-
-            const slides = Array.from(slideshow.querySelectorAll('.slide'));
-            const prevButton = slideshow.querySelector('.slide-control.prev');
-            const nextButton = slideshow.querySelector('.slide-control.next');
-            let currentIndex = 0;
-            let intervalId = null;
-
-            const showSlide = (index) => {
-                slides[currentIndex]?.classList.remove('active');
-                currentIndex = (index + slides.length) % slides.length;
-                slides[currentIndex]?.classList.add('active');
-            };
-
-            const goNext = () => showSlide(currentIndex + 1);
-            const goPrev = () => showSlide(currentIndex - 1);
-
-            prevButton?.addEventListener('click', () => {
-                goPrev();
-                resetAutoRotate();
-            });
-            nextButton?.addEventListener('click', () => {
-                goNext();
-                resetAutoRotate();
-            });
-
-            const resetAutoRotate = () => {
-                if (intervalId) {
-                    clearInterval(intervalId);
-                }
-                intervalId = setInterval(goNext, 5000);
-            };
-
-            resetAutoRotate();
-        })();
-    </script>
-}

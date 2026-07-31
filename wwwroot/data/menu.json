@@ -47,7 +47,6 @@
     "abv": "5.0%",
     "isHappyHour": true
   },
-
   {
     "name": "Efes Glutensiz",
     "category": "Biralar",
@@ -57,7 +56,7 @@
     "isHappyHour": true
   },
   {
-    "name": "Efes Özel Seri",
+    "name": "Efes \u00d6zel Seri",
     "category": "Biralar",
     "price": 14,
     "imagePath": "images/ozelseri.jpg",
@@ -116,7 +115,7 @@
     "isHappyHour": true
   },
   {
-    "name": "FIÇI 50CL+ TEKILA",
+    "name": "FI\u00c7I 50CL+ TEKILA",
     "category": "Biralar",
     "price": 279,
     "imagePath": "images/ficijager.jpg",
@@ -174,7 +173,7 @@
     "isHappyHour": false
   },
   {
-    "name": "MAHŞERİN 5 SHOTLISI",
+    "name": "MAH\u015eER\u0130N 5 SHOTLISI",
     "category": "Shotlar",
     "price": 550,
     "imagePath": "images/mahserin5.jpg",
@@ -222,7 +221,6 @@
     "imagePath": "images/jager.jpg",
     "isHappyHour": false
   },
-
   {
     "name": "Tavuk Burger + 50CL FICI",
     "category": "Yemekler",
@@ -235,7 +233,7 @@
     "isHappyHour": true
   },
   {
-    "name": "GİN KADEH",
+    "name": "G\u0130N KADEH",
     "category": "Gin",
     "price": 249,
     "imagePath": "images/ginkadeh.webp",
@@ -351,22 +349,22 @@
     "isHappyHour": false
   },
   {
-    "name": "BEYAZ ŞARAP",
-    "category": "Şarap",
+    "name": "BEYAZ \u015eARAP",
+    "category": "\u015earap",
     "price": 300,
     "imagePath": "images/beyazsarap.jpg",
     "isHappyHour": false
   },
   {
     "name": "BLUSH",
-    "category": "Şarap",
+    "category": "\u015earap",
     "price": 300,
     "imagePath": "images/blush.jpg",
     "isHappyHour": false
   },
   {
-    "name": "KIRMIZI ŞARAP",
-    "category": "Şarap",
+    "name": "KIRMIZI \u015eARAP",
+    "category": "\u015earap",
     "price": 300,
     "imagePath": "images/redwine.jpg",
     "isHappyHour": false
@@ -681,7 +679,7 @@
     "isHappyHour": false
   },
   {
-    "name": "HAMBURGER + 50CL FIÇI",
+    "name": "HAMBURGER + 50CL FI\u00c7I",
     "category": "Yemekler",
     "price": 339,
     "imagePath": "images/burgerbira.jpg",
@@ -801,7 +799,7 @@
     "isHappyHour": false
   },
   {
-    "name": "Çerez",
+    "name": "\u00c7erez",
     "category": "Yemekler",
     "price": 150,
     "imagePath": "images/cerez.jpg",
@@ -811,7 +809,7 @@
     "carbs": 12
   },
   {
-    "name": "Baharatlı Patates",
+    "name": "Baharatl\u0131 Patates",
     "category": "Yemekler",
     "price": 225,
     "imagePath": "images/baharatlipatates.jpg",
@@ -821,7 +819,7 @@
     "carbs": 58
   },
   {
-    "name": "Çıtır Tavuk",
+    "name": "\u00c7\u0131t\u0131r Tavuk",
     "category": "Yemekler",
     "price": 320,
     "imagePath": "images/citirtavuk.jpg",
@@ -831,7 +829,7 @@
     "carbs": 39
   },
   {
-    "name": "Çıtır Patates",
+    "name": "\u00c7\u0131t\u0131r Patates",
     "category": "Yemekler",
     "price": 225,
     "imagePath": "images/patates.jpg",
@@ -851,7 +849,7 @@
     "carbs": 0
   },
   {
-    "name": "Soğuş",
+    "name": "So\u011fu\u015f",
     "category": "Yemekler",
     "price": 50,
     "imagePath": "images/sogus.jpg",
@@ -917,11 +915,234 @@
     "isHappyHour": true
   },
   {
-    "name": "Türk Kahvesi",
+    "name": "T\u00fcrk Kahvesi",
     "category": "Mesrubatlar",
     "price": 100,
     "imagePath": "images/turkkahvesi.jpg",
     "abv": "0%",
     "isHappyHour": true
+  },
+  {
+    "name": "30 cl Bira",
+    "category": "Biralar",
+    "price": 152,
+    "imagePath": "images/bira.avif",
+    "abv": "4.5%",
+    "isHappyHour": false
+  },
+  {
+    "name": "50 cl Bira",
+    "category": "Biralar",
+    "price": 180,
+    "imagePath": "images/bira.avif",
+    "abv": "4.6%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Amsterdam",
+    "category": "Biralar",
+    "price": 468,
+    "imagePath": "images/amsterdam.jpg",
+    "abv": "5.0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Becks",
+    "category": "Biralar",
+    "price": 343,
+    "imagePath": "images/becks.jpg",
+    "abv": "5.0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Belfast",
+    "category": "Biralar",
+    "price": 343,
+    "imagePath": "images/belfast.jpg",
+    "abv": "5.0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Bud",
+    "category": "Biralar",
+    "price": 343,
+    "imagePath": "images/bud.jpg",
+    "abv": "5.0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Efes Glutensiz",
+    "category": "Biralar",
+    "price": 343,
+    "imagePath": "images/glutensiz2.jpg",
+    "abv": "4.2%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Efes \u00d6zel Seri",
+    "category": "Biralar",
+    "price": 19,
+    "imagePath": "images/ozelseri.jpg",
+    "abv": "5.0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Efes Pilsen",
+    "category": "Biralar",
+    "price": 236,
+    "imagePath": "images/pilsen.jpg",
+    "abv": "5.0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Efes Malt",
+    "category": "Biralar",
+    "price": 236,
+    "imagePath": "images/malt.jpg",
+    "abv": "5.0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Miller",
+    "category": "Biralar",
+    "price": 364,
+    "imagePath": "images/miller.jpg",
+    "abv": "4.7%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Bomonti Filtresiz",
+    "category": "Biralar",
+    "price": 315,
+    "imagePath": "images/bomonti.jpg",
+    "abv": "4.8%",
+    "isHappyHour": false
+  },
+  {
+    "name": "FICI 50CL+ JAGER",
+    "category": "Biralar",
+    "price": 362,
+    "imagePath": "images/jagerbeer.jpg",
+    "abv": "4.5%",
+    "isHappyHour": false
+  },
+  {
+    "name": "FI\u00c7I 50CL+ TEKILA",
+    "category": "Biralar",
+    "price": 390,
+    "imagePath": "images/ficijager.jpg",
+    "abv": "38%",
+    "isHappyHour": false
+  },
+  {
+    "name": "JAGER",
+    "category": "Shotlar",
+    "price": 194,
+    "imagePath": "images/jager.jpg",
+    "abv": "35%",
+    "isHappyHour": false
+  },
+  {
+    "name": "G\u0130N KADEH",
+    "category": "Gin",
+    "price": 348,
+    "imagePath": "images/ginkadeh.webp",
+    "abv": "40%",
+    "isHappyHour": false
+  },
+  {
+    "name": "COSMOPOLITAN",
+    "category": "Alkollu Kokteyller",
+    "price": 390,
+    "imagePath": "images/cosmopolitan.webp",
+    "abv": "22%",
+    "isHappyHour": false
+  },
+  {
+    "name": "APEROL SOUR",
+    "category": "Alkollu Kokteyller",
+    "price": 390,
+    "imagePath": "images/aperolsour.jpg",
+    "isHappyHour": false
+  },
+  {
+    "name": "TEKILA SUNRISE",
+    "category": "Tequila",
+    "price": 390,
+    "imagePath": "images/tekilasunrise.webp",
+    "abv": "36%",
+    "isHappyHour": false
+  },
+  {
+    "name": "VODKA KADEH",
+    "category": "Vodka",
+    "price": 348,
+    "imagePath": "images/vodkakadeh.jpg",
+    "abv": "35%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Churchill",
+    "category": "Mesrubatlar",
+    "price": 138,
+    "imagePath": "images/churchill.jpg",
+    "abv": "0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Coca Cola",
+    "category": "Mesrubatlar",
+    "price": 154,
+    "imagePath": "images/cocacola.jpg",
+    "abv": "0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Meyve Suyu",
+    "category": "Mesrubatlar",
+    "price": 138,
+    "imagePath": "images/meyvesuyu.jpg",
+    "abv": "0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Redbull",
+    "category": "Mesrubatlar",
+    "price": 168,
+    "imagePath": "images/redbull.jpg",
+    "abv": "0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Soda",
+    "category": "Mesrubatlar",
+    "price": 124,
+    "imagePath": "images/soda.jpg",
+    "abv": "0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Sprite",
+    "category": "Mesrubatlar",
+    "price": 154,
+    "imagePath": "images/sprite.jpg",
+    "abv": "0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "Su",
+    "category": "Mesrubatlar",
+    "price": 49,
+    "imagePath": "images/su.jpg",
+    "abv": "0%",
+    "isHappyHour": false
+  },
+  {
+    "name": "T\u00fcrk Kahvesi",
+    "category": "Mesrubatlar",
+    "price": 140,
+    "imagePath": "images/turkkahvesi.jpg",
+    "abv": "0%",
+    "isHappyHour": false
   }
 ]

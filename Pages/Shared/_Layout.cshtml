@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="RedRoxx, menü bölümleri, canlı müzik ve iletişim bilgileri içeren statik bir bar sitesi." />
+    <meta name="description" content="RedRoxx, menü bölümleri, canlı müzik ve iletişim bilgileri içeren statik bir bar menü sitesi." />
     <title>@ViewData["Title"] - RedRoxx</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
@@ -11,15 +11,15 @@
     <header class="site-header">
         <nav class="site-nav" aria-label="Ana navigasyon">
             <div class="nav-group nav-left">
-                <a href="#live-music">Ana Sayfa</a>
-                <a href="#menu">Menü</a>
+                <a href="/" class="nav-link">Ana Sayfa</a>
+                <a href="/kampanya" class="nav-link">Kampanyalar</a>
             </div>
-            <a href="#live-music" class="logo-link" aria-label="RedRoxx ana sayfa">
+            <a href="/" class="logo-link" aria-label="RedRoxx ana sayfa">
                 <img src="~/images/logo.png" alt="RedRoxx logosu" class="site-logo" loading="eager" decoding="async" />
             </a>
             <div class="nav-group nav-right">
-                <a href="#live-music">Canlı Müzik</a>
-                <a href="#contact">İletişim</a>
+                <a href="/#menu" class="nav-link">Menü</a>
+                <a href="/#contact" class="nav-link">İletişim</a>
             </div>
         </nav>
     </header>
