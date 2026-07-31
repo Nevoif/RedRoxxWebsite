@@ -22,7 +22,6 @@
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/scopedcss/bundle/RedRoxxWebsite.styles.css
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/scopedcss/projectbundle/RedRoxxWebsite.bundle.scp.css
-/home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/compressed/3rj53kfadn-{0}-wcpzkyacx1-wcpzkyacx1.gz
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/compressed/ojffmhb9y3-{0}-k2mhreujuw-k2mhreujuw.gz
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/compressed/do5ehzknlg-{0}-61n19gt1b8-61n19gt1b8.gz
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/compressed/cxdkn1t5t1-{0}-61asufbhxq-61asufbhxq.gz
@@ -108,3 +107,4 @@
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/RedRoxxWebsite.genruntimeconfig.cache
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/ref/RedRoxxWebsite.dll
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/compressed/jippac07xt-{0}-smf7x38j0n-smf7x38j0n.gz
+/home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/compressed/3rj53kfadn-{0}-yj09stj7gc-yj09stj7gc.gz
