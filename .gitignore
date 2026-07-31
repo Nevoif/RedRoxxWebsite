@@ -1,1 +1,14 @@
+# Build outputs
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
+*.swp
+
+# Build cache
 .local-chromium/
+
+# Don't ignore docs/ - it contains our static site
+!docs/

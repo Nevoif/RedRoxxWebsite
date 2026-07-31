@@ -107,4 +107,4 @@
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/RedRoxxWebsite.pdb
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/RedRoxxWebsite.genruntimeconfig.cache
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/ref/RedRoxxWebsite.dll
-/home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/compressed/jippac07xt-{0}-s519eolrl5-s519eolrl5.gz
+/home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/compressed/jippac07xt-{0}-smf7x38j0n-smf7x38j0n.gz
