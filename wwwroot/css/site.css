@@ -155,6 +155,32 @@ img {
   object-fit: cover;
 }
 
+.banner-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 1.4rem;
+  background: var(--accent);
+  color: #111;
+  border-radius: 999px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.banner-button:hover,
+.banner-button:focus {
+  transform: translateY(-1px);
+  background: #ff1f3d;
+}
+
 .category-block {
   margin-bottom: 2rem;
 }

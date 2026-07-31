@@ -144,6 +144,9 @@ public class StaticGenerator
                 <button class=""slide-control prev"" type=""button"" aria-label=""Önceki fotoğraf"">←</button>
                 <button class=""slide-control next"" type=""button"" aria-label=""Sonraki fotoğraf"">→</button>
             </div>
+            <div class=""banner-actions"">
+                <a class=""banner-button"" href=""kampanya.html"">Kampanyalar</a>
+            </div>
         </section>
 ";
     }
