@@ -111,10 +111,12 @@ img {
     }
   }
 
-}
-
 .hero-section {
   padding-top: 1rem;
+}
+
+.banner-section {
+  padding-top: 2rem;
 }
 
 .hero-copy {
