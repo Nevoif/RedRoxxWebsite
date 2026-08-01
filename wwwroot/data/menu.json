@@ -1,5 +1,21 @@
 [
   {
+    "name": "Stella ",
+    "category": "Biralar",
+    "price": 275,
+    "imagePath": "images/stella.jpg",
+    "abv": "5%",
+    "isHappyHour": true
+  },
+  {
+    "name": "Stella ",
+    "category": "Biralar",
+    "price": 315,
+    "imagePath": "images/stella.jpg",
+    "abv": "5%",
+    "isHappyHour": false
+  },
+  {
     "name": "30 cl Bira",
     "category": "Biralar",
     "price": 109,
@@ -58,7 +74,7 @@
   {
     "name": "Efes \u00d6zel Seri",
     "category": "Biralar",
-    "price": 14,
+    "price": 195,
     "imagePath": "images/ozelseri.jpg",
     "abv": "5.0%",
     "isHappyHour": true
@@ -925,7 +941,7 @@
   {
     "name": "30 cl Bira",
     "category": "Biralar",
-    "price": 152,
+    "price": 230,
     "imagePath": "images/bira.avif",
     "abv": "4.5%",
     "isHappyHour": false
@@ -933,7 +949,7 @@
   {
     "name": "50 cl Bira",
     "category": "Biralar",
-    "price": 180,
+    "price": 250,
     "imagePath": "images/bira.avif",
     "abv": "4.6%",
     "isHappyHour": false
@@ -941,7 +957,7 @@
   {
     "name": "Amsterdam",
     "category": "Biralar",
-    "price": 468,
+    "price": 375,
     "imagePath": "images/amsterdam.jpg",
     "abv": "5.0%",
     "isHappyHour": false
@@ -949,7 +965,7 @@
   {
     "name": "Becks",
     "category": "Biralar",
-    "price": 343,
+    "price": 300,
     "imagePath": "images/becks.jpg",
     "abv": "5.0%",
     "isHappyHour": false
@@ -957,7 +973,7 @@
   {
     "name": "Belfast",
     "category": "Biralar",
-    "price": 343,
+    "price": 290,
     "imagePath": "images/belfast.jpg",
     "abv": "5.0%",
     "isHappyHour": false
@@ -965,7 +981,7 @@
   {
     "name": "Bud",
     "category": "Biralar",
-    "price": 343,
+    "price": 300,
     "imagePath": "images/bud.jpg",
     "abv": "5.0%",
     "isHappyHour": false
@@ -973,7 +989,7 @@
   {
     "name": "Efes Glutensiz",
     "category": "Biralar",
-    "price": 343,
+    "price": 300,
     "imagePath": "images/glutensiz2.jpg",
     "abv": "4.2%",
     "isHappyHour": false
@@ -981,7 +997,7 @@
   {
     "name": "Efes \u00d6zel Seri",
     "category": "Biralar",
-    "price": 19,
+    "price": 290,
     "imagePath": "images/ozelseri.jpg",
     "abv": "5.0%",
     "isHappyHour": false
@@ -997,7 +1013,7 @@
   {
     "name": "Efes Malt",
     "category": "Biralar",
-    "price": 236,
+    "price": 270,
     "imagePath": "images/malt.jpg",
     "abv": "5.0%",
     "isHappyHour": false
@@ -1005,7 +1021,7 @@
   {
     "name": "Miller",
     "category": "Biralar",
-    "price": 364,
+    "price": 290,
     "imagePath": "images/miller.jpg",
     "abv": "4.7%",
     "isHappyHour": false
@@ -1013,25 +1029,9 @@
   {
     "name": "Bomonti Filtresiz",
     "category": "Biralar",
-    "price": 315,
+    "price": 290,
     "imagePath": "images/bomonti.jpg",
     "abv": "4.8%",
-    "isHappyHour": false
-  },
-  {
-    "name": "FICI 50CL+ JAGER",
-    "category": "Biralar",
-    "price": 362,
-    "imagePath": "images/jagerbeer.jpg",
-    "abv": "4.5%",
-    "isHappyHour": false
-  },
-  {
-    "name": "FI\u00c7I 50CL+ TEKILA",
-    "category": "Biralar",
-    "price": 390,
-    "imagePath": "images/ficijager.jpg",
-    "abv": "38%",
     "isHappyHour": false
   },
   {
@@ -1084,7 +1084,7 @@
   {
     "name": "Churchill",
     "category": "Mesrubatlar",
-    "price": 138,
+    "price": 150,
     "imagePath": "images/churchill.jpg",
     "abv": "0%",
     "isHappyHour": false
@@ -1092,7 +1092,7 @@
   {
     "name": "Coca Cola",
     "category": "Mesrubatlar",
-    "price": 154,
+    "price": 150,
     "imagePath": "images/cocacola.jpg",
     "abv": "0%",
     "isHappyHour": false
@@ -1100,7 +1100,7 @@
   {
     "name": "Meyve Suyu",
     "category": "Mesrubatlar",
-    "price": 138,
+    "price": 150,
     "imagePath": "images/meyvesuyu.jpg",
     "abv": "0%",
     "isHappyHour": false
@@ -1108,7 +1108,7 @@
   {
     "name": "Redbull",
     "category": "Mesrubatlar",
-    "price": 168,
+    "price": 150,
     "imagePath": "images/redbull.jpg",
     "abv": "0%",
     "isHappyHour": false
@@ -1116,7 +1116,7 @@
   {
     "name": "Soda",
     "category": "Mesrubatlar",
-    "price": 124,
+    "price": 150,
     "imagePath": "images/soda.jpg",
     "abv": "0%",
     "isHappyHour": false
@@ -1124,7 +1124,7 @@
   {
     "name": "Sprite",
     "category": "Mesrubatlar",
-    "price": 154,
+    "price": 150,
     "imagePath": "images/sprite.jpg",
     "abv": "0%",
     "isHappyHour": false
@@ -1132,7 +1132,7 @@
   {
     "name": "Su",
     "category": "Mesrubatlar",
-    "price": 49,
+    "price": 40,
     "imagePath": "images/su.jpg",
     "abv": "0%",
     "isHappyHour": false
@@ -1140,7 +1140,7 @@
   {
     "name": "T\u00fcrk Kahvesi",
     "category": "Mesrubatlar",
-    "price": 140,
+    "price": 150,
     "imagePath": "images/turkkahvesi.jpg",
     "abv": "0%",
     "isHappyHour": false

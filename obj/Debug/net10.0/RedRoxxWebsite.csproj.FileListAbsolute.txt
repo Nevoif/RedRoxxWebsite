@@ -106,5 +106,5 @@
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/RedRoxxWebsite.pdb
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/RedRoxxWebsite.genruntimeconfig.cache
 /home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/ref/RedRoxxWebsite.dll
-/home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/compressed/jippac07xt-{0}-smf7x38j0n-smf7x38j0n.gz
-/home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/compressed/3rj53kfadn-{0}-t0qz1nc269-t0qz1nc269.gz
+/home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/compressed/3rj53kfadn-{0}-wmm0351w6b-wmm0351w6b.gz
+/home/nevoif/RedRoxxWebsite/obj/Debug/net10.0/compressed/jippac07xt-{0}-u2mkr0kfak-u2mkr0kfak.gz
