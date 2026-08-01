@@ -1005,7 +1005,7 @@
   {
     "name": "Efes Pilsen",
     "category": "Biralar",
-    "price": 236,
+    "price": 270,
     "imagePath": "images/pilsen.jpg",
     "abv": "5.0%",
     "isHappyHour": false
@@ -1037,7 +1037,7 @@
   {
     "name": "JAGER",
     "category": "Shotlar",
-    "price": 194,
+    "price": 180,
     "imagePath": "images/jager.jpg",
     "abv": "35%",
     "isHappyHour": false
@@ -1045,7 +1045,7 @@
   {
     "name": "G\u0130N KADEH",
     "category": "Gin",
-    "price": 348,
+    "price": 330,
     "imagePath": "images/ginkadeh.webp",
     "abv": "40%",
     "isHappyHour": false
