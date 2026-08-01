@@ -411,7 +411,7 @@
     "name": "BLUE LAGON",
     "category": "Alkollu Kokteyller",
     "price": 279,
-    "imagePath": "images/bluelagon.jpg",
+    "imagePath": "images/bluelagon2.jpg",
     "isHappyHour": true
   },
   {
@@ -558,7 +558,7 @@
     "name": "BLUE LAGON",
     "category": "Alkollu Kokteyller",
     "price": 350,
-    "imagePath": "images/bluelagon.jpg",
+    "imagePath": "images/bluelagon2.jpg",
     "isHappyHour": false
   },
   {
