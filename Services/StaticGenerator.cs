@@ -18,7 +18,11 @@ public class StaticGenerator
     {
         Console.WriteLine("🔨 Generating static site...");
         
-        // Create output directory
+        // Clean and create output directory
+        if (Directory.Exists(_outputPath))
+        {
+            Directory.Delete(_outputPath, true);
+        }
         Directory.CreateDirectory(_outputPath);
 
         // Load menu data
@@ -67,6 +71,7 @@ public class StaticGenerator
         var html = new StringBuilder();
         html.Append(GetHeader());
         html.Append(GetBannerSection());
+        html.Append(GetHappyHourSection(happyHourItems));
         html.Append(GetMenuSection(menuByCategory));
         html.Append(GetContactSection());
         html.Append(GetFooter());
@@ -133,7 +138,7 @@ public class StaticGenerator
     {
         return @"        <section id=""live-music"" class=""banner-section"" aria-labelledby=""live-music-title"">
             <div class=""section-heading"">
-                <h2 id=""live-music-title""></h2>
+                <h2 id=""live-music-title"">RedRoxx</h2>
                 <hr />
             </div>
             <div class=""slideshow"" aria-label=""Slayt gösterisi"">
@@ -145,10 +150,55 @@ public class StaticGenerator
                 <button class=""slide-control next"" type=""button"" aria-label=""Sonraki fotoğraf"">→</button>
             </div>
             <div class=""banner-actions"">
-                <a class=""banner-button"" href=""kampanya.html"">Kampanyalar</a>
+                <a class=""banner-button"" href=""kampanya.html"">Kampanyalar için Tıklayınız</a>
             </div>
         </section>
 ";
+    }
+
+    private string GetHappyHourSection(List<MenuItem> happyHourItems)
+    {
+        if (happyHourItems == null || happyHourItems.Count == 0)
+        {
+            return string.Empty;
+        }
+
+        var categoryIcons = GetCategoryIcons();
+        var grouped = happyHourItems
+            .GroupBy(item => item.Category ?? "Mutlu Saat")
+            .ToDictionary(group => group.Key, group => group.ToList(), StringComparer.OrdinalIgnoreCase);
+
+        var html = new StringBuilder();
+        html.Append(@"        <section id=""happy-hour"" class=""menu-section"" aria-labelledby=""happy-hour-title"">
+            <div class=""section-heading"">
+                <h2 id=""happy-hour-title"">Mutlu Saat</h2>
+                <hr />
+            </div>
+");
+
+        foreach (var category in grouped)
+        {
+            var iconPath = categoryIcons.TryGetValue(category.Key, out var icon) ? icon : "/images/beer.svg";
+            html.Append($@"            <article class=""category-block"">
+                <div class=""category-title-row"">
+                    <img src=""{iconPath}"" alt="""" class=""category-icon"" loading=""lazy"" decoding=""async"" />
+                    <h3>{category.Key}</h3>
+                </div>
+                <div class=""menu-grid"">
+");
+
+            foreach (var item in category.Value)
+            {
+                html.Append(RenderMenuItem(item));
+            }
+
+            html.Append(@"                </div>
+            </article>
+");
+        }
+
+        html.Append("        </section>\n");
+        return html.ToString();
     }
 
     private string GetMenuSection(Dictionary<string, List<MenuItem>> menuByCategory)
@@ -157,7 +207,7 @@ public class StaticGenerator
         var html = new StringBuilder();
         html.Append(@"        <section id=""menu"" class=""menu-section"" aria-labelledby=""menu-title"">
             <div class=""section-heading"">
-                <h2 id=""menu-title"">Menü</h2>
+                <h2 id=""menu-title"">Canlı Müzik Menü</h2>
                 <hr />
             </div>
 ");
