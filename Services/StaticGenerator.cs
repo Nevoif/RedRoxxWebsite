@@ -71,7 +71,6 @@ public class StaticGenerator
         var html = new StringBuilder();
         html.Append(GetHeader());
         html.Append(GetBannerSection());
-        html.Append(GetHappyHourSection(happyHourItems));
         html.Append(GetMenuSection(menuByCategory));
         html.Append(GetContactSection());
         html.Append(GetFooter());
