@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RedRoxxWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b78fc9d12d346efefe02c3d4ccfa886e5657c35a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+502109a25ca98a233813cac938303ed7161edf4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("RedRoxxWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RedRoxxWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
