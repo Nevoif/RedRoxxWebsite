@@ -180,6 +180,12 @@ img {
   justify-content: center;
 }
 
+.banner-actions.stacked {
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
 .banner-button {
   display: inline-flex;
   align-items: center;

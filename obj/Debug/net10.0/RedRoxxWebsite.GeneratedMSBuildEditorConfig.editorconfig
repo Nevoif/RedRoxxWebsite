@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvS2FtcGFueWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/nevoif/RedRoxxWebsite/Pages/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/nevoif/RedRoxxWebsite/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
