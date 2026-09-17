@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Burger icon">
+  <rect width="240" height="240" rx="32" fill="#0d0d0d" stroke="#c8102e" stroke-width="6" />
+  <path d="M76 110c0-22 20-38 44-38h0c24 0 44 16 44 38v12H76Z" fill="none" stroke="#c8102e" stroke-width="8" />
+  <path d="M76 126h88c0 20-18 34-44 34s-44-14-44-34Z" fill="none" stroke="#c8102e" stroke-width="8" />
+  <path d="M92 90h58" stroke="#f5f5f5" stroke-width="6" stroke-linecap="round" />
+</svg>

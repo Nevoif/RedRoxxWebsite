@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Sunday live music banner">
+  <rect width="1200" height="1200" fill="#0d0d0d" />
+  <rect x="70" y="70" width="1060" height="1060" rx="36" fill="none" stroke="#c8102e" stroke-width="10" />
+  <path d="M420 360h360" stroke="#c8102e" stroke-width="16" stroke-linecap="round" />
+  <path d="M450 520c80-90 210-100 320-40" stroke="#f5f5f5" stroke-width="14" stroke-linecap="round" />
+  <path d="M430 710h340" stroke="#c8102e" stroke-width="14" stroke-linecap="round" />
+  <text x="600" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="74" font-weight="700" fill="#f5f5f5">SUNDAY SOIRÉE</text>
+</svg>
