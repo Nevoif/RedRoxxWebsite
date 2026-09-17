@@ -42,6 +42,9 @@ public class StaticGenerator
         // Generate index page
         await GenerateIndexPageAsync(menuItems);
 
+        // Generate menu page for static docs hosting
+        await GenerateMenuPageAsync(menuItems);
+
         // Generate kampanya page
         await GenerateKampanyaPageAsync(menuItems);
 
@@ -53,13 +56,19 @@ public class StaticGenerator
 
     private async Task GenerateIndexPageAsync(List<MenuItem> menuItems)
     {
-        var categoryOrder = GetCategoryOrder();
+        var html = new StringBuilder();
+        html.Append(GetHeader());
+        html.Append(GetBannerSection());
+        html.Append(GetFooter());
+        html.Append(GetSlideShowScript());
 
-        var happyHourItems = menuItems
-            .Where(item => item.IsHappyHour)
-            .OrderBy(item => categoryOrder.TryGetValue(item.Category ?? "", out var order) ? order : int.MaxValue)
-            .ThenBy(item => item.Name, StringComparer.OrdinalIgnoreCase)
-            .ToList();
+        await File.WriteAllTextAsync(Path.Combine(_outputPath, "index.html"), html.ToString());
+        Console.WriteLine("  ✓ index.html generated");
+    }
+
+    private async Task GenerateMenuPageAsync(List<MenuItem> menuItems)
+    {
+        var categoryOrder = GetCategoryOrder();
 
         var menuByCategory = menuItems
             .Where(item => !item.IsHappyHour)
@@ -69,15 +78,13 @@ public class StaticGenerator
             .ToDictionary(group => group.Key, group => group.OrderBy(item => item.Name, StringComparer.OrdinalIgnoreCase).ToList(), StringComparer.OrdinalIgnoreCase);
 
         var html = new StringBuilder();
-        html.Append(GetHeader());
-        html.Append(GetBannerSection());
+        html.Append(GetHeader("Menü"));
         html.Append(GetMenuSection(menuByCategory));
         html.Append(GetContactSection());
         html.Append(GetFooter());
-        html.Append(GetSlideShowScript());
 
-        await File.WriteAllTextAsync(Path.Combine(_outputPath, "index.html"), html.ToString());
-        Console.WriteLine("  ✓ index.html generated");
+        await File.WriteAllTextAsync(Path.Combine(_outputPath, "menu.html"), html.ToString());
+        Console.WriteLine("  ✓ menu.html generated");
     }
 
     private async Task GenerateKampanyaPageAsync(List<MenuItem> menuItems)
@@ -123,8 +130,8 @@ public class StaticGenerator
                 <img src=""images/logo.png"" alt=""RedRoxx logosu"" class=""site-logo"" loading=""eager"" decoding=""async"" />
             </a>
             <div class=""nav-group nav-right"">
-                <a href=""index.html#menu"" class=""nav-link"">Menü</a>
-                <a href=""index.html#contact"" class=""nav-link"">İletişim</a>
+                <a href=""menu.html"" class=""nav-link"">Menü</a>
+                <a href=""menu.html#contact"" class=""nav-link"">İletişim</a>
             </div>
         </nav>
     </header>
@@ -135,21 +142,18 @@ public class StaticGenerator
 
     private string GetBannerSection()
     {
-        return @"        <section id=""live-music"" class=""banner-section"" aria-labelledby=""live-music-title"">
-            <div class=""section-heading"">
-                <h2 id=""live-music-title"">RedRoxx</h2>
-                <hr />
-            </div>
-            <div class=""slideshow"" aria-label=""Slayt gösterisi"">
-                <div class=""slides"">
+        return @"        <section id=""live-music"" class=""banner-section""><!--??-->
+            <div class=""slideshow"" aria-label=""Slayt gösterisi""><!--??-->
+                <div class=""slides""><!--??-->
                     <img src=""images/slideshow1.jpg"" alt=""Slayt gösterisi 1"" class=""slide active"" loading=""lazy"" decoding=""async"" />
                     <img src=""images/slideshow2.jpg"" alt=""Slayt gösterisi 2"" class=""slide"" loading=""lazy"" decoding=""async"" />
                 </div>
                 <button class=""slide-control prev"" type=""button"" aria-label=""Önceki fotoğraf"">←</button>
                 <button class=""slide-control next"" type=""button"" aria-label=""Sonraki fotoğraf"">→</button>
             </div>
-            <div class=""banner-actions"">
-                <a class=""banner-button"" href=""kampanya.html"">Kampanyalar için Tıklayınız</a>
+            <div class=""banner-actions stacked""><!--??-->
+                <a class=""banner-button"" href=""kampanya.html"">Bahce Kampanyalar Menu</a>
+                <a class=""banner-button"" href=""menu.html"">Canli Müzik Menu</a>
             </div>
         </section>
 ";
